@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url("https://media.timeout.com/images/105875404/1372/772/image.jpg");
+    background-color: black;
+}
+
+.container{
+    width: 90vw;
+    max-width: 37.5em;
+    padding: 3em 1.8em;
+    background-color: #8BF5FA 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 1.2em;
+}
+
+
+/* .btn-container button{
+    font-size: 0.9em;
+    padding: 1em 1.5em;
+    border-radius: 0.3em;
+    border:2px solid #205E61;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+} */
+
+.btn{
+    font-size: 0.9em;
+    padding: 1em 1.5em;
+    border-radius: 0.3em;
+    border:2px solid #205E61;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#demo{
+    color: white;
+    position: relative;
+    padding-bottom: 3px;
+
+    
+}
+
+#map{
+    position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  
+}
+
+.btncolor{
+    background-color: black;
+    color: white;
+}
